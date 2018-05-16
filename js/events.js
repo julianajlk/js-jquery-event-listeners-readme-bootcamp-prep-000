@@ -12,7 +12,9 @@ function frameIt() {
 };
 
 function pressIt() {
-  
+  $('p').on("keydown", function() {
+    alert("You pressed G!");
+  });
 };
 
 function submitIt() {
